@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.10.0](https://github.com/brrian/versioning-test/compare/v1.9.0...v1.10.0) (2022-03-20)
+
+
+### Features
+
+* awesome stuff ([#15](https://github.com/brrian/versioning-test/issues/15)) ([a8b7cf6](https://github.com/brrian/versioning-test/commit/a8b7cf68027575dd5b8e4bbd5c1a858003ab1484))
+
 ## [1.9.0](https://github.com/brrian/versioning-test/compare/v1.8.1...v1.9.0) (2022-03-20)
 
 
