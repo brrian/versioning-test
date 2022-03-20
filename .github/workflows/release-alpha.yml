@@ -30,7 +30,7 @@ jobs:
       - name: Install Dependencies
         run: yarn install
 
-      - name: Create release
+      - name: Create Alpha Release
         run: |
           git config --global user.email "bot@pomelloapp.com"
           git config --global user.name "pomello[bot]"

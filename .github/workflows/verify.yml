@@ -1,9 +1,9 @@
-name: Release
+name: Verify
 
-on: workflow_dispatch
+on: pull_request
 
 jobs:
-  release:
+  verify:
     runs-on: ubuntu-latest
 
     steps:
@@ -28,9 +28,5 @@ jobs:
       - name: Install Dependencies
         run: yarn install
 
-      - name: Create Release
-        run: |
-          git config --global user.email "bot@pomelloapp.com"
-          git config --global user.name "pomello[bot]"
-          yarn release
-          git push --follow-tags origin main
+      - name: Test
+        run: yarn test
