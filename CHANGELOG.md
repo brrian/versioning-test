@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.8.1](https://github.com/brrian/versioning-test/compare/v1.8.0...v1.8.1) (2022-03-20)
+
+
+### Bug Fixes
+
+* update fetch depth ([1ce04ab](https://github.com/brrian/versioning-test/commit/1ce04ab3ca213ebb164741ddae57861dab963bb9))
+
 ## 1.8.0 (2022-03-20)
 
 ## 1.7.0 (2022-03-20)
