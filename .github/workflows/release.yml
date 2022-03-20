@@ -13,24 +13,9 @@ jobs:
         with:
           node-version: '16'
 
-      - name: Cache node_modules
-        uses: actions/cache@v2
-        env:
-          cache-name: cache-node-modules
-        with:
-          path: '**/node_modules'
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-build-${{ env.cache-name }}-
-            ${{ runner.os }}-build-
-            ${{ runner.os }}-
-
-      - name: Install Dependencies
-        run: yarn install
-
       - name: Create Release
         run: |
           git config --global user.email "bot@pomelloapp.com"
           git config --global user.name "pomello[bot]"
-          yarn release
+          npx standard-version
           git push --follow-tags origin main
