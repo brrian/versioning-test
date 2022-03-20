@@ -1,6 +1,6 @@
 {
   "name": "version-test",
-  "version": "1.2.2-alpha.0",
+  "version": "1.2.2",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
