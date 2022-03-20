@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.9.0](https://github.com/brrian/versioning-test/compare/v1.8.1...v1.9.0) (2022-03-20)
+
+
+### Features
+
+* update checkout version ([085ead3](https://github.com/brrian/versioning-test/commit/085ead31d4a444a2721f9ee8611dd6d25480dd8f))
+* update push settings ([9ed0173](https://github.com/brrian/versioning-test/commit/9ed0173954d0f74b5290399926aa9a500a26bfa8))
+
 ### [1.8.1](https://github.com/brrian/versioning-test/compare/v1.8.0...v1.8.1) (2022-03-20)
 
 
