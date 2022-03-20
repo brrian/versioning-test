@@ -10,21 +10,6 @@ All notable changes to this project will be documented in this file. See [standa
 * new alpha bfcfd4d
 * oh yeah f70300f
 
-## [1.1.0-alpha.1](///compare/v1.0.0...v1.1.0-alpha.1) (2022-03-20)
-
-
-### Features
-
-* new alpha bfcfd4d
-* oh yeah f70300f
-
-## [1.1.0-alpha.0](///compare/v1.0.0...v1.1.0-alpha.0) (2022-03-20)
-
-
-### Features
-
-* new alpha bfcfd4d
-
 ## 1.0.0 (2022-03-20)
 
 
